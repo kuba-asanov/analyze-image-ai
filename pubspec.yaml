@@ -1,0 +1,71 @@
+name: surapp_flutter
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  go_router: ^14.3.0
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  take_it: ^1.0.1
+  shared_preferences: ^2.3.2
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_18pt-Black.ttf
+        - asset: assets/fonts/Inter_18pt-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Bold.ttf
+        - asset: assets/fonts/Inter_18pt-BoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-ExtraBold.ttf
+        - asset: assets/fonts/Inter_18pt-ExtraBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-ExtraLight.ttf
+        - asset: assets/fonts/Inter_18pt-ExtraLightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Italic.ttf
+        - asset: assets/fonts/Inter_18pt-Light.ttf
+        - asset: assets/fonts/Inter_18pt-LightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Medium.ttf
+        - asset: assets/fonts/Inter_18pt-MediumItalic.ttf
+        - asset: assets/fonts/Inter_18pt-Regular.ttf
+        - asset: assets/fonts/Inter_18pt-SemiBold.ttf
+        - asset: assets/fonts/Inter_18pt-SemiBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Inter_18pt-Thin.ttf
+        - asset: assets/fonts/Inter_18pt-ThinItalic.ttf
+          style: italic
